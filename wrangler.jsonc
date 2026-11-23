@@ -5,6 +5,15 @@
   "compatibility_flags": ["nodejs_compat"],
   "main": "vinext/server/fetch-handler",
   "keep_vars": true,
+  "vars": {
+    "NEXT_PUBLIC_SITE_URL": "https://overmyroof.barisyilmazcontact.workers.dev"
+  },
+  "kv_namespaces": [
+    {
+      "binding": "OVERMYROOF_KV",
+      "id": "bfa35790575a408eb7721b15bbb29001"
+    }
+  ],
   "assets": {
     "directory": "dist/client",
     "html_handling": "none",
