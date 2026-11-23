@@ -1,0 +1,35 @@
+{
+  "name": "overmyroof",
+  "version": "0.1.0",
+  "private": true,
+  "packageManager": "npm",
+  "dependencies": {
+    "@noble/curves": "^2.4.0",
+    "@noble/hashes": "^2.4.0",
+    "@vinext/cloudflare": "^1.4.0",
+    "react": "latest",
+    "react-dom": "latest",
+    "react-server-dom-webpack": "^19.3.1",
+    "vinext": "^1.4.6"
+  },
+  "devDependencies": {
+    "@cloudflare/vite-plugin": "^1.70.1",
+    "@tailwindcss/postcss": "latest",
+    "@types/node": "latest",
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "@vitejs/plugin-react": "^6.3.0",
+    "@vitejs/plugin-rsc": "^0.5.39",
+    "tailwindcss": "latest",
+    "typescript": "latest",
+    "vite": "^8.3.0",
+    "wrangler": "^4.167.0"
+  },
+  "type": "module",
+  "scripts": {
+    "dev": "vite dev",
+    "build": "vite build",
+    "start": "vite preview",
+    "deploy": "vite build && wrangler deploy"
+  }
+}

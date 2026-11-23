@@ -1,0 +1,52 @@
+@import "tailwindcss";
+
+@theme inline {
+  --font-sans: var(--font-sans-app), ui-sans-serif, system-ui, -apple-system, sans-serif;
+  --font-mono: var(--font-mono-app), ui-monospace, SFMono-Regular, monospace;
+}
+
+:root {
+  color-scheme: light;
+  --bg-page: #faf9f7;
+  --bg-card: #ffffff;
+  --border-subtle: #e7e5e4;
+  --ink-primary: #18181b;
+  --ink-secondary: #52525b;
+  --ink-muted: #71717a;
+  --accent-brand: #0f172a;
+  --accent-sky: #0284c7;
+  --verdict-red: #dc2626;
+  --verdict-amber: #d97706;
+  --verdict-green: #16a34a;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--bg-page);
+  color: var(--ink-primary);
+  font-family: var(--font-sans);
+}
+
+.font-heading {
+  font-family: var(--font-sans-app), ui-sans-serif, system-ui, sans-serif;
+}
+
+.font-data {
+  font-family: var(--font-mono-app), ui-monospace, SFMono-Regular, monospace;
+  font-variant-numeric: tabular-nums;
+}
+
+.soft-hero-bg {
+  background-color: #faf9f7;
+  background-image: radial-gradient(
+    ellipse 80% 50% at 50% -10%,
+    rgba(14, 165, 233, 0.08),
+    transparent 70%
+  );
+}

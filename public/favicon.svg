@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="64" y2="64" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#1E293B" />
+      <stop offset="100%" stop-color="#0F172A" />
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="16" fill="url(#bg)" />
+  <!-- Subtle flight arc behind jet -->
+  <path
+    d="M10 25.5 Q16.5 23.2 21.5 21.4"
+    fill="none"
+    stroke="#38BDF8"
+    stroke-width="2.5"
+    stroke-linecap="round"
+    stroke-dasharray="3.5 4"
+    opacity="0.8"
+  />
+  <!-- Crisp overhead commercial jet flying cleanly above roof -->
+  <g transform="translate(36.5 17.5) rotate(-18) scale(0.84)">
+    <path
+      d="M17 0 C17 -2.1 14 -3.2 10.5 -3.2 L3 -3.2 L-5.5 -13.5 L-9.5 -13.5 L-4.2 -3.2 L-11.5 -3.2 L-15.2 -7.2 L-18 -7.2 L-15.5 0 L-18 7.2 L-15.2 7.2 L-11.5 3.2 L-4.2 3.2 L-9.5 13.5 L-5.5 13.5 L3 3.2 L10.5 3.2 C14 3.2 17 2.1 17 0 Z"
+      fill="#FFFFFF"
+    />
+  </g>
+  <!-- Bold house roofline directly beneath flight path -->
+  <path
+    d="M12 51 L32 37.5 L52 51"
+    fill="none"
+    stroke="#38BDF8"
+    stroke-width="5.2"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+  <!-- Warm home window glow -->
+  <rect x="28.5" y="47.5" width="7" height="7" rx="1.7" fill="#F59E0B" />
+</svg>
